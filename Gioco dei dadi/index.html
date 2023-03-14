@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gioco dei dadi</title>
+    <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body class="bg-info-subtle">
@@ -15,15 +16,10 @@
             <button class="btn btn-primary">Tira i dadi</button>
         </div>
         <div class="d-flex justify-content-between">
-            <div>
-                <h3>Dado utente</h3>
-                <div class="box-dado-utente"></div>
-            </div>
-            <div>
-                <h3>Dado computer</h3>
-                <div class="box-dado-computer"></div>
-            </div>
+            <div class="box-dado-utente"></div>
+            <div class="box-dado-computer"></div>
         </div>
+        <div class="d-flex justify-content-center result"></div>
     </div>
 
     <script type="text/javascript" src="./js/script.js"></script>
